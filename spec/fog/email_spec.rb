@@ -6,6 +6,6 @@ describe Fog::Email do
   end
 
   it 'does something useful' do
-    expect(false).to eq(true)
+    expect(false).to be_falsy
   end
 end

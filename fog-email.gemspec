@@ -8,9 +8,10 @@ Gem::Specification.new do |spec|
   spec.version       = Fog::Email::VERSION
   spec.authors       = ["Ali Ismayilov"]
   spec.email         = ["ali@ismailov.info"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Module for the `fog` gem to support popular email service providers.}
+  spec.description   = %q{This gem aims to abstract usage of popular email service providers
+                          such as Sendgrid, Mandril, Amazon SES and etc.}
+  spec.homepage      = "https://github.com/aliismayilov/fog-email"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
